@@ -1,0 +1,13 @@
+{
+  "name": "nwtop",
+  "main": "iframe.html",
+  "chromium-args": "--enable-logging=stderr --enable-extensions --load-extension='../web-scraper-chromnw-desktop/extension/'",
+  "window": {
+    "width": 1280,
+    "height": 1024,
+    "position": "center",
+    "toolbar": true,
+    "title": "Starting nwtop...",
+    "resizable": true
+  }
+}
